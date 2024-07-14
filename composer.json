@@ -1,0 +1,17 @@
+{
+    "name": "techmemorials/phpiggy",
+    "description": "An application for tracking expenses",
+    "type": "project",
+    "authors": [
+        {
+            "name": "techmemorials"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "App\\": "src/App"
+        }
+    }
+}
